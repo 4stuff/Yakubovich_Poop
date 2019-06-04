@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Поле Чудес</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+  <div class="bg-dark container" style="height: 450px; width: 800px;position: absolute; margin-left: 350px">
+  	<div class="bg-warning col-12 container text-uppercase font-weight-bold text-center" style="width: 770px; height: 200px; margin-top: 70px">Данил Александрович ...... — украинский профессиональный киберспортсмен, игрок в Dota 2. С 2010 по 2018 год выступал за команду Natus Vincere. Вместе с командой стал победителем первого в истории турнира The International — престижнейшего турнира по Dota 2.Его ник в игре Dendi.
+    Назовите фамилию этого легендарного игрока.</div>
+  	<div class="d-flex text-white text-center" style="width: 770px; height: 100px; margin-top: 10px;">
+  		<div class="bg-dark border col-2"><h2 class="cooly1" style="display: none;">И</h2></div> <!--БЛОК1-->
+  		<div class="bg-dark border col-2"><h2 class="cooly2" style="display: none;">Ш</h2></div> <!--БЛОК2-->
+  		<div class="bg-dark border col-2"><h2 class="cooly3" style="display: none;">У</h2></div> <!--БЛОК3-->
+  		<div class="bg-dark border col-2"><h2 class="cooly4" style="display: none;">Т</h2></div> <!--БЛОК4-->
+  		<div class="bg-dark border col-2"><h2 class="cooly5" style="display: none;">И</h2></div> <!--БЛОК5-->
+  		<div class="bg-dark border col-2"><h2 class="cooly6" style="display: none;">Н</h2></div> <!--БЛОК6-->
+  	</div>
+  	<div class="font-weight-bold d-flex text-white" style="width: 780px; height: 50px; margin-top: 15px; position: absolute; padding-right: 37px">
+  		<span class="ml-1 nope1"><h3>А</h3></span>
+  		<span class="ml-1 nope2"><h3>Б</h3></span>
+  		<span class="ml-1 nope3"><h3>В</h3></span>
+  		<span class="ml-1 nope4"><h3>Г</h3></span>
+  		<span class="ml-1 nope5"><h3>Д</h3></span>
+  		<span class="ml-1 nope6"><h3>Е</h3></span>
+  		<span class="ml-1 nope7"><h3>Ё</h3></span>
+  		<span class="ml-1 nope8"><h3>Ж</h3></span>
+  		<span class="ml-1 nope9"><h3>З</h3></span>
+  		<span class="ml-1 yes1"><h3>И</h3></span> <!--1 и 5 буква-->
+  		<span class="ml-1 nope10"><h3>Й</h3></span> <!--11 буква-->
+
+  		<span class="ml-1 nope11"><h3>К</h3></span>
+  		<span class="ml-1 nope12"><h3>Л</h3></span>
+  		<span class="ml-1 nope13"><h3>М</h3></span>
+  		<span class="ml-1 yes5"><h3>Н</h3></span> <!--6 буква-->
+  		<span class="ml-1 nope14"><h3>О</h3></span>
+  		<span class="ml-1 nope15"><h3>П</h3></span>
+  		<span class="ml-1 nope16"><h3>Р</h3></span>
+  		<span class="ml-1 nope17"><h3>С</h3></span>
+  		<span class="ml-1 yes4"><h3>Т</h3></span> <!--4 буква-->
+  		<span class="ml-1 yes3"><h3>У</h3></span> <!--3 буква-->
+  		<span class="ml-1 nope18"><h3>Ф</h3></span> <!--22 буква-->
+
+  		<span class="ml-1 nope19"><h3>Х</h3></span>
+  		<span class="ml-1 nope20"><h3>Ц</h3></span>
+  		<span class="ml-1 nope21"><h3>Ч</h3></span>
+  		<span class="ml-1 yes2"><h3>Ш</h3></span> <!--2 буква-->
+  		<span class="ml-1 nope22"><h3>Щ</h3></span>
+  		<span class="ml-1 nope23"><h3>Ь</h3></span>
+  		<span class="ml-1 nope24"><h3>Ы</h3></span>
+  		<span class="ml-1 nope25"><h3>Ъ</h3></span>
+  		<span class="ml-1 nope26"><h3>Э</h3></span>
+  		<span class="ml-1 nope27"><h3>Ю</h3></span>
+  		<span class="ml-1 nope28"><h3>Я</h3></span> <!--33 буква-->
+  	</div>
+  </div>
+  <div style="position: absolute; margin-top: 500px">
+  	<div class="border">
+  	<h4>"В эфире Капитал Шоу Поле Чудес! Вам нужно отгадать Фамилию"</h4>
+  </div>
+  <div>
+  	<img src="start.png" class="w-50">
+  </div>
+  </div>
+
+
+
+  <script type="text/javascript">
+
+
+      let rapat = function(){
+        alert('Нет такой буквы')
+      }
+      let ofhorse = function(){
+        alert('Откройте букву')
+        document.querySelector(".cooly1").style.display = 'block'
+        document.querySelector(".cooly5").style.display = 'block'
+
+      }
+      let offe = function(){
+        alert('Откройте букву')
+        document.querySelector(".cooly2").style.display = 'block'
+      }
+      let coffee = function(){
+        alert('Откройте букву')
+        document.querySelector(".cooly3").style.display = 'block'
+      }
+      let cofe = function(){
+        alert('Откройте букву')
+        document.querySelector(".cooly4").style.display = 'block'
+      }
+      let cafe = function(){
+        alert('Откройте букву')
+        document.querySelector(".cooly6").style.display = 'block'
+      }
+      document.querySelector(".nope1").onclick = rapat
+      document.querySelector(".nope2").onclick = rapat
+      document.querySelector(".nope3").onclick = rapat
+      document.querySelector(".nope4").onclick = rapat
+      document.querySelector(".nope5").onclick = rapat
+      document.querySelector(".nope6").onclick = rapat
+      document.querySelector(".nope7").onclick = rapat
+      document.querySelector(".nope8").onclick = rapat
+      document.querySelector(".nope9").onclick = rapat
+      document.querySelector(".nope10").onclick = rapat
+      document.querySelector(".nope11").onclick = rapat
+      document.querySelector(".nope12").onclick = rapat
+      document.querySelector(".nope13").onclick = rapat
+      document.querySelector(".nope14").onclick = rapat
+      document.querySelector(".nope15").onclick = rapat
+      document.querySelector(".nope16").onclick = rapat
+      document.querySelector(".nope17").onclick = rapat
+      document.querySelector(".nope18").onclick = rapat
+      document.querySelector(".nope19").onclick = rapat
+      document.querySelector(".nope20").onclick = rapat
+      document.querySelector(".nope21").onclick = rapat
+      document.querySelector(".nope22").onclick = rapat
+      document.querySelector(".nope23").onclick = rapat
+      document.querySelector(".nope24").onclick = rapat
+      document.querySelector(".nope25").onclick = rapat
+      document.querySelector(".nope26").onclick = rapat
+      document.querySelector(".nope27").onclick = rapat
+      document.querySelector(".nope28").onclick = rapat
+      document.querySelector(".yes1").onclick = ofhorse
+      document.querySelector(".yes2").onclick = offe
+      document.querySelector(".yes3").onclick = coffee
+      document.querySelector(".yes4").onclick = cofe
+      document.querySelector(".yes5").onclick = cafe
+
+
+  </script> 
+</body>
+</html>
